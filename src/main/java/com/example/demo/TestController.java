@@ -10,7 +10,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RequestMapping
 public class TestController {
 
-    @GetMapping(value = "/sir")
+    @GetMapping(value = "/sir-r")
     public String getHello(){
         return  "Hello Mejan Vai - after build";
     }
