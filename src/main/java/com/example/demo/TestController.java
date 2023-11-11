@@ -12,6 +12,6 @@ public class TestController {
 
     @GetMapping(value = "/sir")
     public String getHello(){
-        return  "Hello Mejan Vai";
+        return  "Hello Mejan Vai - after build";
     }
 }
